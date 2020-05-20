@@ -1,0 +1,45 @@
+{
+  "id": "1b51905f-aded-4635-968b-2606822b417c",
+  "name": "Topic",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "lookup",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "64a6ae30-8e79-4477-8357-4898d368b2b2",
+          "required": false,
+          "dataType": "@Topic",
+          "name": "topic",
+          "value": "$topic",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
